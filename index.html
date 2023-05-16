@@ -5,13 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script type = "text/javascript" src="javascript.js"> </script>
+    <link rel="stylesheet" href="basic.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <p>Test</p>
-    <script src="javascript.js">
+    <p id="Winner">Winner:</p>
 
-     //getComputerChoice()
+    <nav class="container">
+        <nav class="comp">
+            <div id="cRock">Rock</div>
+            <div id="cPaper">Paper</div>
+            <div id="cScissors">Scissors</div>
+        </nav>
+        <nav class="compS">
+            <div id="csRock"></div>
+            <div id="csPaper"></div>
+            <div id="csScissors"></div>
+        </nav>
+        <nav class="playerS">
+            <div id="psRock"></div>
+            <div id="psPaper"></div>
+            <div id="psScissors"></div>
+        </nav>
+        <nav class="player">
+            <div id="pRock"><button onclick = "letsPlay(0)">Rock</button></div>
+            <div id="pPaper"><button onclick = "letsPlay(1)">Paper</button></div>
+            <div id="pScissors"><button onclick = "letsPlay(2)">Scissors</button></div>
+        </nav>
+    </nav>
 
-    </script>
+
 </body>
 </html>
