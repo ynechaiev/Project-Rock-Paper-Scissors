@@ -1,0 +1,101 @@
+.container.comp > div {
+    height: 100;
+    width: 100;
+    font-size: 2em;
+    flex: 1;
+  }
+  
+  html, body {
+    margin: auto;
+    text-align: center;
+    font-size: 1.2em;
+    
+    background-color: beige;
+    font-weight: bold;
+    line-height: 60px;
+  }
+  
+  .container .comp > div:nth-child(1) {
+    background: rgb(52, 24, 24);
+    width: 100px;
+    height: 60px;
+    color: white;
+  }
+  
+  .container .comp > div:nth-child(2) {
+    background-color: #4e8187;
+    width: 100px;
+    height: 60px;
+    color: white;
+  }
+  
+  .container .comp > div:nth-child(3) {
+    background-color: #ffcd16;
+    width: 100px;
+    height: 60px;
+    color: white;
+  }
+
+  .container .player > div:nth-child(1) {
+    background: rgb(52, 24, 24);
+    width: 100px;
+    height: 60px;
+    color: white;
+  }
+  
+  .container .player > div:nth-child(2) {
+    background-color: #4e8187;
+    width: 100px;
+    height: 60px;
+    color: white;
+  }
+  
+  .container .player > div:nth-child(3) {
+    background-color: #ffcd16;
+    width: 100px;
+    height: 60px;
+    color: white;
+  }
+  
+  .container .compS > div:nth-child(1) {
+    width: 100px;
+    height: 60px;
+    color: white;
+    background-color: #909090;	
+  }
+  
+  .container .compS > div:nth-child(2) {
+    width: 100px;
+    height: 60px;
+    color: white;
+    background-color: #909090;
+  }
+  
+  .container .compS > div:nth-child(3) {
+    width: 100px;
+    height: 60px;
+    color: white;
+    background-color: #909090;
+  }
+
+  .container .playerS > div:nth-child(1) {
+    width: 100px;
+    height: 60px;
+    color: white;
+    background-color: #909090;
+  }
+  
+  .container .playerS > div:nth-child(2) {
+    width: 100px;
+    height: 60px;
+    color: white;
+    background-color: #909090;
+  }
+  
+  .container .playerS > div:nth-child(3) {
+    width: 100px;
+    height: 60px;
+    color: white;
+    background-color: #909090;
+  }
+  
